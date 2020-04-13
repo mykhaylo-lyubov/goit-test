@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    justify-content: center;
+    padding: 40px;
+    background-color: blue;
+    text-align: center;
+    
+}
