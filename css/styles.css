@@ -2,11 +2,134 @@
     margin: 0px;
     padding: 0px;
 }
-
-.title {
-    justify-content: center;
-    padding: 40px;
-    background-color: blue;
-    text-align: center;
-    
+.header{
+    background-color: #445162;
+    width: 1280px;
+    height: 323px;
 }
+.header-name{
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5;
+}
+.header-list {
+    padding-top: 45px;
+    list-style: none;
+    padding-left: 20px;
+    content: '✔';
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    float: left;
+}
+.header-image{
+    padding-top: 50px;
+    float: right;
+    border: olive;
+    height: 215px;
+    width: 470px;
+    padding-right: 50px;
+}
+.check-icon{
+    height: 18px;
+    width: 25px;
+    padding-left: 50px;
+    padding-top: 50px;
+    float: left;
+}
+.about-your-product{
+    background-color: #FFFFFF;
+    width: 1280px;
+    height: 323px
+}
+.about-your-product-name{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 28px;
+    width: 254px;
+    color: #445161;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-your-product-first{
+    color: #445161;
+    height: 63px;
+    width: 649px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-your-product-second{
+    color: #445161;
+    height: 60px;
+    width: 653px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.about-your-product-image{
+    float: right;
+    padding-right: 50px;
+    padding-top: 0px;
+    width: 431px;
+    height: 246px;
+}
+.dignity-and-pluses{
+    background-color: #F5F5F5;
+    height: 400px;
+    width: 1280px;
+}
+.dignity-and-pluses-name{
+    width: 400px;
+    height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #445161;
+    padding-left: 464px;
+    padding-top: 50px;
+}
+.dignity-right-items1{
+    padding-top: 29px;
+    padding-left: 91px;
+    width: 526px;
+    height: 63px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #333333;
+}
+.table-common{
+    border-collapse: collapse;
+}
+/* ячейка 1.1 */
+.table1{
+    height: 30px;
+    width: 30px;
+    background: #445161;
+    float: left;
+    margin-left: 50px;
+    margin-top: 38px;
+}
+.plus1{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+/* ячейка 1.2 */
+.table2{
+    height: 30px;
+    width: 30px;
+    background: #445161;
+    float: left;
+    margin-left: 50px;
+    margin-top: 38px;
+}
+.plus1{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
