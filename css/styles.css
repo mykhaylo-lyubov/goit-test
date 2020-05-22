@@ -1,0 +1,65 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-titles-color: #212121;
+  --primary-contacts-and-text-color: #757575;
+  --white-color: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --copyright-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Utilities */
+.decor-none {
+  text-decoration: none;
+}
+
+.list-decor-clear {
+  list-style: none;
+}
+
+body {
+  font-family: roboto;
+  letter-spacing: 0.03em;
+}
+
+/* header */
+
+.logo-link {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+
+  color: var(--accent-color);
+}
+
+.logo-link__studio {
+  color: var(--primary-titles-color);
+}
+
+.site-nav__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-titles-color);
+}
+
+.site-nav__item:hover,
+.site-nav__item:focus {
+  color: var(--accent-color);
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-contacts-and-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
