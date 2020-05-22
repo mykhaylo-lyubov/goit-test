@@ -19,6 +19,7 @@
 body {
   font-family: roboto;
   letter-spacing: 0.03em;
+  color: var(--primary-titles-color);
 }
 
 /* header */
@@ -88,3 +89,36 @@ body {
 
   background-color: blue;
 }
+
+/* our features */
+
+.our-features-list__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+}
+
+.our-features-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--primary-contacts-and-text-color);
+}
+
+/* our job */
+
+.our-job__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.our-job-list__link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+}
+
+/* team */
