@@ -383,9 +383,10 @@ p {
   background-color: brown;
 }
 
-.footer__box {
+.footer__main {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer__logo-address {
@@ -446,22 +447,16 @@ p {
 
 .footer-subscription-form {
   display: flex;
-  margin-left: 93px;
-
-  width: 570px;
 }
 
 .footer-subscription-form__button {
   padding: 10px 45px;
 }
 
-.footer-copyright {
-  display: flex;
-}
-
 .footer-copyright__text {
   font-size: 12px;
   line-height: 2;
+  text-align: center;
 
   color: var(--copyright-color);
 
