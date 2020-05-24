@@ -7,6 +7,8 @@
   --our-clients-items-border: 1px solid #afb1b8;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --copyright-color: rgba(255, 255, 255, 0.4);
+  --out-team-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 
 /* Utilities */
@@ -38,14 +40,14 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid #000000;
-  background-color: yellow;
+  /* outline: 1px solid #000000; */
+  /* background-color: green; */
 }
 
 /* header */
 
 .header {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .header__box {
@@ -151,7 +153,7 @@ p {
 
   color: var(--white-color);
 
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .hero__button {
@@ -173,7 +175,7 @@ p {
 /* our features */
 
 .our-features {
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 .our-features__title {
@@ -229,7 +231,7 @@ p {
 /* our job */
 
 .our-job {
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .our-job__box,
@@ -280,7 +282,7 @@ p {
 /* team */
 
 .team {
-  background-color: silver;
+  background-color: var(--out-team-bg-color);
 }
 
 .team__list {
@@ -334,7 +336,7 @@ p {
 /* our clients */
 
 .our-clients {
-  background-color: gold;
+  /* background-color: gold; */
 }
 
 .our-clients__list {
@@ -380,7 +382,7 @@ p {
 /* footer */
 
 .footer {
-  background-color: brown;
+  background-color: var(--footer-bg-color);
 }
 
 .footer__main {
@@ -399,11 +401,15 @@ p {
   font-size: 22px;
   line-height: 1.18;
 
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 .footer__logo-link--studio {
   color: var(--white-color);
+}
+
+.footer-address {
+  margin-top: 9px;
 }
 
 .footer-address__direction {
@@ -414,19 +420,20 @@ p {
 
   color: var(--white-color);
 
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 .footer-address__mail,
 .footer-address__tel {
   display: block;
+  margin-top: 9px;
 
   font-size: 14px;
   line-height: 1.71;
 
   color: var(--footer-contacts-color);
 
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 .footer-join-us__title,
@@ -438,19 +445,51 @@ p {
 
   color: var(--white-color);
 
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 .footer-join-us {
   margin-left: 69px;
 }
 
-.footer-subscription-form {
+.footer-subscription-form__box {
   display: flex;
+  margin-right: 12px;
+}
+
+.footer-subscription-form__title {
+  margin-bottom: 21px;
+}
+
+.footer-subscription-form__input {
+  background-color: transparent;
+
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
 }
 
 .footer-subscription-form__button {
-  padding: 10px 45px;
+  display: flex;
+  align-items: center;
+
+  padding: 10px 28px;
+  align-content: center;
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.footer-subscription-form__button-text {
+  margin-right: 10px;
 }
 
 .footer-copyright__text {
@@ -460,5 +499,9 @@ p {
 
   color: var(--copyright-color);
 
-  background-color: #000;
+  /* background-color: #000; */
+}
+
+.footer-copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
