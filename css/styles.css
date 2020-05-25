@@ -46,9 +46,9 @@ p {
 
 /* header */
 
-.header {
-  /* background-color: blue; */
-}
+/* .header {
+   background-color: blue;
+} */
 
 .header__box {
   display: flex;
@@ -174,9 +174,9 @@ p {
 
 /* our features */
 
-.our-features {
-  /* background-color: grey; */
-}
+/* .our-features {
+  background-color: grey;
+} */
 
 .our-features__title {
   display: none;
@@ -230,9 +230,9 @@ p {
 
 /* our job */
 
-.our-job {
-  /* background-color: orange; */
-}
+/* .our-job {
+  background-color: orange;
+} */
 
 .our-job__box,
 .team__box,
@@ -335,9 +335,9 @@ p {
 
 /* our clients */
 
-.our-clients {
-  /* background-color: gold; */
-}
+/* .our-clients {
+  background-color: gold;
+} */
 
 .our-clients__list {
   display: flex;
